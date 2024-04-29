@@ -1,0 +1,30 @@
+:root{
+    --bs-dark-rgb: 0, 83, 151;
+    /*--bs-tertiary-bg-rgb: 0, 83, 151;*/
+}
+.blue{
+    color: rgb(0, 83, 151);
+    font-weight: bold;
+}
+
+.nav-link, .nav-link:hover {
+    color: white;
+}
+
+header{
+    height: 400px;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+header h1{
+    text-shadow: 1px 1px black;
+}
+
+main h1, main h5{
+    font-family: 'Pt Sans Narrow', sans-serif;
+}
+
+main p{
+    text-align: justify;
+}
